@@ -19,7 +19,7 @@
     ```
     cd path_to_project
     ````
-3. In terminal clone the project
+3. Clone the project
     ```
     git clone https://github.com/unlimUA/kidslox.git
     ```
@@ -29,14 +29,14 @@
     java -jar selenium-server-standalone-3.6.0.jar -role webdriver -hub http://localhost:4441/hub/register -port 5000
     ```
 5. Include the ChromeDriver location in your PATH environment variable
-6. Check url with selenium grid at SelenoidWebDriverProvider
+6. Check url with selenium grid at SelenoidWebDriverProvider `src/test/java/com/kindlox/drivers`
     ```
     URI.create("http://localhost:4444/wd/hub").toURL(),
     ```
 
 ## Running the tests
 ### You can run the test with IntelliJ IDEA
-1. Go to `src/test/com/kindlox/tests`
+1. Go to `src/test/java/com/kindlox/tests`
 2. Select one of thee files
 3. Run test with help of Intellij IDEA
 ### You can run the test with command line
