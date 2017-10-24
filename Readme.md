@@ -31,7 +31,7 @@
 5. Include the ChromeDriver location in your PATH environment variable
 6. Check url with selenium grid at SelenoidWebDriverProvider `src/test/java/com/kindlox/drivers`
     ```
-    URI.create("http://localhost:4444/wd/hub").toURL(),
+    URI.create("http://localhost:5000/wd/hub").toURL(),
     ```
 
 ## Running the tests
